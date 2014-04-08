@@ -1,0 +1,101 @@
+body {
+  font-family: Exo, sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:active {
+  color: blue;
+}
+
+.link:visited {
+  color: green;
+}
+
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.white {
+  background-color: white;
+}
+
+.red-div .nested {
+  background-color: blue !important;
+}
+
+.red-div {
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.nested {
+  width: 160px;
+  height: 160px;
+  background-color: green;
+}
+.purple-div {
+  width: 140px;
+  height: 140px;
+  background-color: purple;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px #03f;
+  color: yellow;
+}
+ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.cool:nth-child(2n+1) {
+  font-size: 25px;
+}
+h1:hover {
+  text-shadow: 1px 1px 2px green;
+  color: green;
+}
+
+h1:first-letter {
+  font-size: 100px;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  /*background-color: #ccc;*/
+  position: relative;
+  top: 30px;
+  /*box-shadow: inset 1px 1px 3px 2px black;*/
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*z-index: 9;*/
+}
+
+.box .overlay {
+  background-color: rgba(0, 51, 255, 0.52);
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index: 1;
+
+
+}
